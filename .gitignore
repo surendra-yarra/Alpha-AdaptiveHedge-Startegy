@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+# Optional: exclude the database if you want a fresh start on the server
+# alpha_pro_v5.db
