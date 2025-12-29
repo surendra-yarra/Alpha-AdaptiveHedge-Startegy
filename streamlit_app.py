@@ -50,6 +50,14 @@ def get_target_alloc(row, history, stretch_threshold):
     if p < e50 and p < e100: return (0.75, 0.10, 0.15)
     return (0.95, 0.00, 0.05)
 
+# --- DISCLAIMER ---
+st.warning("""
+⚠️ Disclaimer:
+This tool is for educational and research purposes only.
+Past performance is not indicative of future returns.
+This is not an investment recommendation.
+""")
+
 # --- 3. UI LAYOUT ---
 st.set_page_config(page_title="Alpha Hedge Pro", layout="wide")
 st.title("🛡️ Alpha Hedge Strategy")
